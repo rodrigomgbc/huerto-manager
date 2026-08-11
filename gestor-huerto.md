@@ -10,6 +10,13 @@ Ideado para la gestión de un huerto para pequeños agricultores, principalmente
 - Nivel del agua del depósito
 - Registro de cosechas 
 
+## Propósitos de Mi Huerto Manager
+
+1. **Visualización**: Mapa/vista del huerto con surcos y plantas
+2. **Inventario**: Gestión de materiales (stock)
+3. **Control**: Plantas, agua (depósito), cosechas
+4. **Interfaz**: Amigable con temática agrícola
+
 ### Proximas funcionalidades...
 
 ## 10/08/2026
