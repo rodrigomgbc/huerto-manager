@@ -2,6 +2,7 @@ package com.mihuerto.model;
 
 public class Ubicacion {
 
+    private int id;
     private String poblacion;
     private String provincia;
     private double latitud;
@@ -9,7 +10,8 @@ public class Ubicacion {
     private double altura;
 
     // Constructor
-    public Ubicacion(String poblacion, String provincia, double latitud, double longitud, double altura) {
+    public Ubicacion(int id, String poblacion, String provincia, double latitud, double longitud, double altura) {
+        this.id = id;
         this.poblacion = poblacion;
         this.provincia = provincia;
         this.latitud = latitud;
@@ -21,7 +23,8 @@ public class Ubicacion {
     @Override
     public String toString() {
         return "Ubicacion{" +
-                "poblacion='" + poblacion + '\'' +
+                "id=" + id +
+                ", poblacion='" + poblacion + '\'' +
                 ", provincia='" + provincia + '\'' +
                 ", latitud=" + latitud +
                 ", longitud=" + longitud +

@@ -4,9 +4,9 @@ import java.time.LocalDate;
 
 public class Planta {
 
-    private int idPlanta;
-    private int idSurco;                    // Ubicación de la planta
-    private String especiePlanta;
+    private int id;
+    private int idSurco;                    // Ubicación de la 
+    private String especie;
     private EstadoPlanta estado;
     private boolean enferma;
     private LocalDate fechaPlantacion;
@@ -14,10 +14,10 @@ public class Planta {
     private LocalDate fechaEstimadaCosecha;
     private String observaciones;
 
-    public Planta(int idPlanta, int idSurco, String especiePlanta, EstadoPlanta estado, boolean enferma, LocalDate fechaPlantacion, LocalDate fechaUltimoRiego, LocalDate fechaEstimadaCosecha, String observaciones) {
-        this.idPlanta = idPlanta;
+    public Planta (int id, int idSurco, String especie, EstadoPlanta estado, boolean enferma, LocalDate fechaPlantacion, LocalDate fechaUltimoRiego, LocalDate fechaEstimadaCosecha, String observaciones) {
+        this.id = id;
         this.idSurco = idSurco;
-        this.especiePlanta = especiePlanta;
+        this.especie = especie;
         this.estado = estado;
         this.enferma = enferma;
         this.fechaPlantacion = fechaPlantacion;
@@ -28,13 +28,13 @@ public class Planta {
 
     @Override
     public String toString() {
-        return "Planta{" +
-                "idPlanta=" + idPlanta +
+        return "{" +
+                "id=" + id +
                 ", idSurco=" + idSurco +
-                ", especiePlanta='" + especiePlanta + '\'' +
+                ", especie='" + especie + '\'' +
                 ", estado=" + estado +
                 ", enferma=" + enferma +
-                ", fechaPlantacion=" + fechaPlantacion +
+                ", fechacion=" + fechaPlantacion +
                 ", fechaUltimoRiego=" + fechaUltimoRiego +
                 ", fechaEstimadaCosecha=" + fechaEstimadaCosecha +
                 ", observaciones='" + observaciones + '\'' +

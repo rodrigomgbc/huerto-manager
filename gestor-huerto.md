@@ -56,15 +56,23 @@ mvn package           # Crea un .jar ejecutable
 - [x] Git inicializado
 
 ### En Progreso
-- [ ] Estrctura de carpetas (Estructura de la aplicación)
-- [ ] Estrctura de clases (Estructura de la aplicación)
+- [x] Estrctura de carpetas (Estructura de la aplicación)
+- [x] Estrctura de clases (Estructura de la aplicación)
   - [x] Huerto
-  - [ ] Surco
-  - [ ] Planta
-  - [ ] Material
-  - [ ] Deposito
-  - [ ] Cosecha
+  - [x] Surco
+  - [x] Planta
+  - [x] Material
+  - [x] Deposito
+  - [x] Cosecha
+  - [x] Ubicación
 - [ ] Base de datos
+  - [ ] Tabla huerto
+  - [x] Tabla planta 
+  - [x] Tabla surco 
+  - [ ] Tabla planta 
+  - [ ] Tabla planta 
+  - [ ] Tabla planta 
+  - [ ] Tabla planta 
 
 ### Posterior
 - [ ] Lógica de la aplicación

@@ -4,20 +4,16 @@ import java.time.LocalDate;
 
 public class Huerto {
     // Atributos del huerto
-    private int idHuerto;
+    private int id;
     private int tamanio;     // m^2
-    private int numSurcos;
-    private int numCultivos;
     private Ubicacion ubicacion;
     private String propietario;
     private LocalDate fechaCreacion;
 
     // Constructor
-    public Huerto(int idHuerto, int tamanio, int numSurcos, int numCultivos, Ubicacion ubicacion, String propietario, LocalDate fechaCreacion) {
-        this.idHuerto = idHuerto;
+    public Huerto(int id, int tamanio, Ubicacion ubicacion, String propietario, LocalDate fechaCreacion) {
+        this.id = id;
         this.tamanio = tamanio;
-        this.numSurcos = numSurcos;
-        this.numCultivos = numCultivos;
         this.ubicacion = ubicacion;
         this.propietario = propietario;
         this.fechaCreacion = fechaCreacion;
@@ -27,10 +23,8 @@ public class Huerto {
     @Override
     public String toString() {
         return "Huerto{" +
-                "idHuerto=" + idHuerto +
+                "id=" + id +
                 ", tamanio=" + tamanio +
-                ", numSurcos=" + numSurcos +
-                ", numCultivos=" + numCultivos +
                 ", ubicacion=" + ubicacion +
                 ", propietario='" + propietario + '\'' +
                 ", fechaCreacion=" + fechaCreacion +
