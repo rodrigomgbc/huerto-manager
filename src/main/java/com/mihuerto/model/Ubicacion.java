@@ -7,16 +7,16 @@ public class Ubicacion {
     private String provincia;
     private double latitud;
     private double longitud;
-    private double altura;
+    private double altitud;
 
     // Constructor
-    public Ubicacion(int id, String poblacion, String provincia, double latitud, double longitud, double altura) {
+    public Ubicacion(int id, String poblacion, String provincia, double latitud, double longitud, double altitud) {
         this.id = id;
         this.poblacion = poblacion;
         this.provincia = provincia;
         this.latitud = latitud;
         this.longitud = longitud;
-        this.altura = altura;
+        this.altitud = altitud;
     }
 
     // toString()
@@ -28,7 +28,7 @@ public class Ubicacion {
                 ", provincia='" + provincia + '\'' +
                 ", latitud=" + latitud +
                 ", longitud=" + longitud +
-                ", altura=" + altura +
+                ", altitud=" + altitud +
                 '}';
     }
 }

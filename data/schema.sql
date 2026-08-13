@@ -31,7 +31,9 @@ CREATE TABLE huerto (
 
 CREATE TABLE ubicacion (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    poblacion VARCHAR(50),
-    provincia VARCHAR(50),
-
+    poblacion VARCHAR(50) NOT NULL,
+    provincia VARCHAR(50) NOT NULL,
+    latitud REAL NOT NULL,
+    longitud REAL NOT NULL,
+    altitud REAL NOT NULL
 );
